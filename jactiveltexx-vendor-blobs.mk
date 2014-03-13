@@ -87,7 +87,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jactiveltexx/proprietary/bin/mm-qcamera-test:system/bin/mm-qcamera-test \
 	vendor/samsung/jactiveltexx/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
         vendor/samsung/jactiveltexx/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-        vendor/samsung/jactiveltexx/proprietary/lib/libril.so:system/lib/libril.so
+        vendor/samsung/jactiveltexx/proprietary/lib/libril.so:system/lib/libril.so \
         vendor/samsung/jactiveltexx/proprietary/bin/mpdecision:system/bin/mpdecision \
         vendor/samsung/jactiveltexx/proprietary/bin/thermald:system/bin/thermald \
         vendor/samsung/jactiveltexx/proprietary/bin/thermal-engine:system/bin/thermal-engine \
