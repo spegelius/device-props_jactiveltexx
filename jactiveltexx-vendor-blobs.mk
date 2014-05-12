@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jactiveltexx/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/samsung/jactiveltexx/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 	vendor/samsung/jactiveltexx/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
-	vendor/samsung/jactiveltexx/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
 	vendor/samsung/jactiveltexx/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
 	vendor/samsung/jactiveltexx/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
 	vendor/samsung/jactiveltexx/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
