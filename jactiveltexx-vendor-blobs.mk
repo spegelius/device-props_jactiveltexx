@@ -17,45 +17,10 @@
 PRODUCT_PACKAGES += libtime_genoff
 
 PRODUCT_COPY_FILES += \
-	vendor/samsung/jactiveltexx/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
 	vendor/samsung/jactiveltexx/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/samsung/jactiveltexx/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 	vendor/samsung/jactiveltexx/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 	vendor/samsung/jactiveltexx/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmercury.so:system/lib/libmercury.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libTsAwb.so:system/lib/libTsAwb.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_zsl.so:system/lib/libchromatix_s5k3h5xa_zsl.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_default_video.so:system/lib/libchromatix_s5k3h5xa_default_video.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_animation.so:system/lib/libchromatix_s5k3h5xa_animation.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_antishake.so:system/lib/libchromatix_s5k3h5xa_antishake.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_lls.so:system/lib/libchromatix_s5k3h5xa_lls.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_preview.so:system/lib/libchromatix_s5k3h5xa_preview.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_zsl_drama.so:system/lib/libchromatix_s5k3h5xa_zsl_drama.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_zsl_panorama.so:system/lib/libchromatix_s5k3h5xa_zsl_panorama.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k6b2yx_pip.so:system/lib/libchromatix_s5k6b2yx_pip.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k6b2yx_preview.so:system/lib/libchromatix_s5k6b2yx_preview.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k6b2yx_smartstay.so:system/lib/libchromatix_s5k6b2yx_smartstay.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k6b2yx_video.so:system/lib/libchromatix_s5k6b2yx_video.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k6b2yx_vt.so:system/lib/libchromatix_s5k6b2yx_vt.so \
-	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k6b2yx_vt_hd.so:system/lib/libchromatix_s5k6b2yx_vt_hd.so \
 	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
 	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
 	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
@@ -76,6 +41,14 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_ov8825_preview.so:system/lib/libchromatix_ov8825_preview.so \
 	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_ov9726_default_video.so:system/lib/libchromatix_ov9726_default_video.so \
 	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_ov9726_preview.so:system/lib/libchromatix_ov9726_preview.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_zsl.so:system/lib/libchromatix_s5k3h5xa_zsl.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_default_video.so:system/lib/libchromatix_s5k3h5xa_default_video.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_animation.so:system/lib/libchromatix_s5k3h5xa_animation.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_antishake.so:system/lib/libchromatix_s5k3h5xa_antishake.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_lls.so:system/lib/libchromatix_s5k3h5xa_lls.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_preview.so:system/lib/libchromatix_s5k3h5xa_preview.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_zsl_drama.so:system/lib/libchromatix_s5k3h5xa_zsl_drama.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3h5xa_zsl_panorama.so:system/lib/libchromatix_s5k3h5xa_zsl_panorama.so \
 	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
 	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
 	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
@@ -85,6 +58,34 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
 	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
 	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k6b2yx_pip.so:system/lib/libchromatix_s5k6b2yx_pip.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k6b2yx_preview.so:system/lib/libchromatix_s5k6b2yx_preview.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k6b2yx_smartstay.so:system/lib/libchromatix_s5k6b2yx_smartstay.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k6b2yx_video.so:system/lib/libchromatix_s5k6b2yx_video.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k6b2yx_vt.so:system/lib/libchromatix_s5k6b2yx_vt.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libchromatix_s5k6b2yx_vt_hd.so:system/lib/libchromatix_s5k6b2yx_vt_hd.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmercury.so:system/lib/libmercury.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
+	vendor/samsung/jactiveltexx/proprietary/lib/libTsAwb.so:system/lib/libTsAwb.so \
 	vendor/samsung/jactiveltexx/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
 	vendor/samsung/jactiveltexx/proprietary/bin/mm-qcamera-test:system/bin/mm-qcamera-test \
 	vendor/samsung/jactiveltexx/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
@@ -149,19 +150,19 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jactiveltexx/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
         vendor/samsung/jactiveltexx/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
         vendor/samsung/jactiveltexx/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-        vendor/samsung/jactiveltexx/proprietary/lib/libidl.so:system/lib/libidl.so \
+        vendor/samsung/jactiveltexx/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
         vendor/samsung/jactiveltexx/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
         vendor/samsung/jactiveltexx/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
         vendor/samsung/jactiveltexx/proprietary/lib/libqdi.so:system/lib/libqdi.so \
         vendor/samsung/jactiveltexx/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-        vendor/samsung/jactiveltexx/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-        vendor/samsung/jactiveltexx/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-        vendor/samsung/jactiveltexx/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
-        vendor/samsung/jactiveltexx/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
-        vendor/samsung/jactiveltexx/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
-        vendor/samsung/jactiveltexx/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
-        vendor/samsung/jactiveltexx/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
-        vendor/samsung/jactiveltexx/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
+        vendor/samsung/jactiveltexx/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+        vendor/samsung/jactiveltexx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+        vendor/samsung/jactiveltexx/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+        vendor/samsung/jactiveltexx/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+        vendor/samsung/jactiveltexx/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+        vendor/samsung/jactiveltexx/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+        vendor/samsung/jactiveltexx/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+        vendor/samsung/jactiveltexx/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
         vendor/samsung/jactiveltexx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
         vendor/samsung/jactiveltexx/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
         vendor/samsung/jactiveltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
