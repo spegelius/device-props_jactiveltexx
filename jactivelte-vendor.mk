@@ -16,4 +16,4 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
-$(call inherit-product, vendor/samsung/jactiveltexx/jactiveltexx-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/jactivelte/jactivelte-vendor-blobs.mk)
