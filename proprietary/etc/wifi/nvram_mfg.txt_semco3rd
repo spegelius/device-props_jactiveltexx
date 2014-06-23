@@ -128,7 +128,6 @@ rssicorrnorm5g_c0=2,3,0,1,1,-1,-2,0,-2,-2,0,-2
 #PA blow up protect
 tssifloor2g=372
 tssifloor5g=552,568,512,487
-
 txidxcap2g=15
 txidxcap5g=0
 

@@ -1,17 +1,14 @@
-# bcm94335wlcspMS_ES51_RC171p24p23_04052013_TM_mdfy_PAparam.txt -- 4/5/2013 by Murata, based on bcm94335wlcspMS_ES51_RC171p24p20_04022013_TM.txt, changed PA parameters and txidxcap parameters and ccode.
-# bcm94335wlcspMS_ES51_RC171p24p20_04022013_TM.txt -- 4/2/2013 by Broadcom Corporation
-# Use with AARDVARK_REL_6_30_171_24_23 -- Murata BCM4335 WLCSP 11AC Module
+# bcm94335wlcspMS_ES51_RC171p24p16_03202013_TM_mdfy_PAparam.txt -- 3/20/2013 by Murata, based on bcm94335wlcspMS_ES51_RC171p24p9_02282013_TM.txt, changed PA parameters and txidxcap parameters.
+# bcm94335wlcspMS_ES51_RC171p24p9_02282013_TM.txt -- 2/28/2013 by Broadcom Corporation
+# Use with AARD171RC24_REL_6_34_171_12_MFG -- Murata BCM4335 WLCSP 11AC Module
 # Sample variables file for Murata Type-XJ ES5.1 (0x00 0x22) -- bcm94335wlcspMS_TM_P501.txt as original
 sromrev=11
 boardrev=0x1501
 boardtype=0x064b
 boardflags=0x10401001
 boardflags2=0x0
-#modified boardflags3 for forcing to enable external LPO
-boardflags3=0x0800c08b
+boardflags3=0xc08b
 macaddr=00:90:4c:c5:12:38
-#ccode modified by Murata
-#ccode=0
 ccode=GB
 regrev=6
 antswitch=0
@@ -52,7 +49,7 @@ tssipos2g=1
 #pa5ga2=-201,5811,-730,-193,5800,-728,-190,5681,-712,-178,5731,-709
 pa2ga0=0xff34,0x181D,0xFD07
 pa2ga1=0xff37,0x18D2,0xFCED
-pa5ga0=0xff54,0x176A,0xFD19,0xff5f,0x17A6,0xFD15,0xff67,0x1766,0xFD1E,0xff7d,0x16D5,0xFD33
+pa5ga0=0xff49,0x16AB,0xFD29,0xff4f,0x16A2,0xFD2D,0xff4e,0x15FF,0xFD3C,0xff6a,0x160C,0xFD40
 pa5ga1=0xff43,0x1667,0xFD2F,0xff4c,0x16D2,0xFD27,0xff5a,0x1700,0xFD23,0xff6c,0x1716,0xFD28
 pa5ga2=0xff46,0x166A,0xFD2E,0xff4a,0x1687,0xFD2C,0xff51,0x1639,0xFD37,0xff56,0x15BB,0xFD42
 # Default Target Power for 2G -- 17dBm(11)/14dBm(54)/13dBm(MCS7,MCS8)/16dBm(6,MCS0)
@@ -113,9 +110,6 @@ muxenab=0x10
 #sd_oobonly=1
 rssicorrnorm_c0=-3,-2
 rssicorrnorm5g_c0=-2,0,-3,-2,0,-3,-2,-1,-4,-2,-1,-4
-#txidxcap2g and txidxcap5g modified by Murata
-#txidxcap2g=32
-#txidxcap5g=28
 txidxcap2g=36
-txidxcap5g=36
+txidxcap5g=42
 paparambwver=1
