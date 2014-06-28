@@ -93,6 +93,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/bin/mpdecision:system/bin/mpdecision \
         vendor/samsung/jactivelte/proprietary/bin/thermald:system/bin/thermald \
         vendor/samsung/jactivelte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+        vendor/samsung/jactivelte/proprietary/bin/radish:system/bin/radish \
         vendor/samsung/jactivelte/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
         vendor/samsung/jactivelte/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
         vendor/samsung/jactivelte/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
