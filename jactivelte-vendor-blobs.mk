@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jactivelte/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
 	vendor/samsung/jactivelte/proprietary/lib/libTsAwb.so:system/lib/libTsAwb.so \
         vendor/samsung/jactivelte/proprietary/lib/libril.so:system/lib/libril.so \
+        vendor/samsung/jactivelte/proprietary/bin/bintvoutservice:system/bin/bintvoutservice \
         vendor/samsung/jactivelte/proprietary/bin/mpdecision:system/bin/mpdecision \
         vendor/samsung/jactivelte/proprietary/bin/radish:system/bin/radish \
         vendor/samsung/jactivelte/proprietary/bin/thermald:system/bin/thermald \
@@ -131,6 +132,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
         vendor/samsung/jactivelte/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
         vendor/samsung/jactivelte/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+        vendor/samsung/jactivelte/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
         vendor/samsung/jactivelte/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
         vendor/samsung/jactivelte/proprietary/bin/efsks:system/bin/efsks \
         vendor/samsung/jactivelte/proprietary/bin/ks:system/bin/ks \
@@ -162,7 +164,10 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/bin/time_daemon:system/bin/time_daemon \
         vendor/samsung/jactivelte/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
         vendor/samsung/jactivelte/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+        vendor/samsung/jactivelte/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+        vendor/samsung/jactivelte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
         vendor/samsung/jactivelte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+        vendor/samsung/jactivelte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
         vendor/samsung/jactivelte/proprietary/lib/libsam.so:system/lib/libsam.so \
         vendor/samsung/jactivelte/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
         vendor/samsung/jactivelte/proprietary/lib/hw/sensorhubs.msm8960.so:system/lib/hw/sensorhubs.msm8960.so \
