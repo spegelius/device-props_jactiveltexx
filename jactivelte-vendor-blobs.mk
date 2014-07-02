@@ -130,19 +130,19 @@ PRODUCT_COPY_FILES += \
 
         
 # Bins
-PRODUCT_COPY_FILES += \        
+PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/bin/mpdecision:system/bin/mpdecision \
         vendor/samsung/jactivelte/proprietary/bin/radish:system/bin/radish
 
 
 # Thermal
-PRODUCT_COPY_FILES += \        
+PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/bin/thermald:system/bin/thermald \
         vendor/samsung/jactivelte/proprietary/bin/thermal-engine:system/bin/thermal-engine
 
 
 # Bluetooth firmware
-PRODUCT_COPY_FILES += \ 
+PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
         vendor/samsung/jactivelte/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
         vendor/samsung/jactivelte/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
@@ -151,14 +151,14 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/vendor/firmware/bcm4335_semco.hcd:system/vendor/firmware/bcm4335_semco.hcd
 
 # Audio
-PRODUCT_COPY_FILES += \ 
+PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
         vendor/samsung/jactivelte/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
         vendor/samsung/jactivelte/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so
 
 
 # mmparser extended
-PRODUCT_COPY_FILES += \ 
+PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
         vendor/samsung/jactivelte/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
         vendor/samsung/jactivelte/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
@@ -221,7 +221,7 @@ PRODUCT_COPY_FILES += \
 
 
 # Wifi
-PRODUCT_COPY_FILES += \        
+PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
         vendor/samsung/jactivelte/proprietary/etc/wifi/bcmdhd_apsta.bin_a0:system/etc/wifi/bcmdhd_apsta.bin_a0 \
         vendor/samsung/jactivelte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
@@ -251,12 +251,12 @@ PRODUCT_COPY_FILES += \
 
 
 # Perf
-PRODUCT_COPY_FILES += \ 
+PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
 
 
 # DRM
-PRODUCT_COPY_FILES += \ 
+PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/bin/qseecomd:system/bin/qseecomd \
         vendor/samsung/jactivelte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
         vendor/samsung/jactivelte/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
