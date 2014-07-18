@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/Camera/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
         vendor/samsung/jactivelte/proprietary/Camera/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
         vendor/samsung/jactivelte/proprietary/Camera/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
+        vendor/samsung/jactivelte/proprietary/Camera/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
         vendor/samsung/jactivelte/proprietary/Camera/lib/hw/camera.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
         vendor/samsung/jactivelte/proprietary/Camera/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
         vendor/samsung/jactivelte/proprietary/Camera/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
