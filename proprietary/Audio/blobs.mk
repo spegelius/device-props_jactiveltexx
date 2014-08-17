@@ -17,4 +17,4 @@
 PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/Audio/lib/libacdbloader.so:system/lib/libacdbloader.so \
         vendor/samsung/jactivelte/proprietary/Audio/lib/libaudcal.so:system/lib/libaudcal.so \
-        vendor/samsung/jactivelte/proprietary/Audio/lib/libcsd-client.so:system/lib/libcsd-client.so
+        vendor/samsung/jactivelte/proprietary/Audio/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so

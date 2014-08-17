@@ -16,5 +16,3 @@
 
 PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/Perf/lib/libqc-opt.so:system/lib/libqc-opt.so
-
-
