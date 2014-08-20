@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/Adreno/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
         vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
         vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-        vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
         vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
         vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
         vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -33,9 +32,9 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
         vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
         vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-        vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
         vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
         vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+        vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/egl/libGLES_android.so:system/vendor/lib/egl/libGLES_android.so \
         vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
         vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
         vendor/samsung/jactivelte/proprietary/Adreno/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so
