@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/GPS/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+        vendor/samsung/jactivelte/proprietary/GPS/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
         vendor/samsung/jactivelte/proprietary/GPS/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
         vendor/samsung/jactivelte/proprietary/GPS/lib/libgps.utils.so:system/lib/libgps.utils.so \
         vendor/samsung/jactivelte/proprietary/GPS/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
