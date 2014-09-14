@@ -16,4 +16,4 @@
 
 PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/Thermal/bin/thermal-engine:system/bin/thermal-engine \
-        vendor/samsung/jactivelte/proprietary/Thermal/lib/libthermalclient.so:system/lib/libthermalclient.so
+        vendor/samsung/jactivelte/proprietary/Thermal/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so

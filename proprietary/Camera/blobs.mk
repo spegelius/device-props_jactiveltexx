@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/Camera/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
         vendor/samsung/jactivelte/proprietary/Camera/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
         vendor/samsung/jactivelte/proprietary/Camera/bin/mm-qcamera-test:system/bin/mm-qcamera-test \
+        vendor/samsung/jactivelte/proprietary/Camera/lib/libadsprpc.so:system/lib/libadsprpc.so \
         vendor/samsung/jactivelte/proprietary/Camera/lib/libchromatix_s5k6b2yx_video.so:system/lib/libchromatix_s5k6b2yx_video.so \
         vendor/samsung/jactivelte/proprietary/Camera/lib/libchromatix_ov5647_default_video.so:system/lib/libchromatix_ov5647_default_video.so \
         vendor/samsung/jactivelte/proprietary/Camera/lib/libchromatix_ov9726_default_video.so:system/lib/libchromatix_ov9726_default_video.so \

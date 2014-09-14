@@ -19,14 +19,14 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/DRM/bin/irsc_util:system/bin/irsc_util \
         vendor/samsung/jactivelte/proprietary/DRM/bin/insthk:system/bin/insthk \
         vendor/samsung/jactivelte/proprietary/DRM/lib/libhdcp2.so:system/lib/libhdcp2.so \
-        vendor/samsung/jactivelte/proprietary/DRM/lib/libdrmfs.so:system/lib/libdrmfs.so \
-        vendor/samsung/jactivelte/proprietary/DRM/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-        vendor/samsung/jactivelte/proprietary/DRM/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-        vendor/samsung/jactivelte/proprietary/DRM/lib/libdrmtime.so:system/lib/libdrmtime.so \
-        vendor/samsung/jactivelte/proprietary/DRM/lib/libwvm.so:system/lib/libwvm.so \
-        vendor/samsung/jactivelte/proprietary/DRM/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-        vendor/samsung/jactivelte/proprietary/DRM/lib/libWVStreamControlAPI_L1.so:system/lib/libWVStreamControlAPI_L1.so \
-        vendor/samsung/jactivelte/proprietary/DRM/lib/libwvdrm_L1.so:system/lib/libwvdrm_L1.so \
+        vendor/samsung/jactivelte/proprietary/DRM/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+        vendor/samsung/jactivelte/proprietary/DRM/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+        vendor/samsung/jactivelte/proprietary/DRM/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+        vendor/samsung/jactivelte/proprietary/DRM/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+        vendor/samsung/jactivelte/proprietary/DRM/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+        vendor/samsung/jactivelte/proprietary/DRM/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+        vendor/samsung/jactivelte/proprietary/DRM/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+        vendor/samsung/jactivelte/proprietary/DRM/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
         vendor/samsung/jactivelte/proprietary/DRM/etc/sec_config:system/etc/sec_config \
         vendor/samsung/jactivelte/proprietary/DRM/etc/srm.bin:system/etc/srm.bin \
         vendor/samsung/jactivelte/proprietary/DRM/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so

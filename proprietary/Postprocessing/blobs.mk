@@ -16,5 +16,5 @@
 
 PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/Postprocessing/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-        vendor/samsung/jactivelte/proprietary/Postprocessing/lib/libmm-abl.so:system/lib/libmm-abl.so \
-        vendor/samsung/jactivelte/proprietary/Postprocessing/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so
+        vendor/samsung/jactivelte/proprietary/Postprocessing/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
+        vendor/samsung/jactivelte/proprietary/Postprocessing/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so
