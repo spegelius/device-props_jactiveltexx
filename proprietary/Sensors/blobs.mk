@@ -17,5 +17,4 @@
 PRODUCT_COPY_FILES += \
         vendor/samsung/jactivelte/proprietary/Sensors/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
         vendor/samsung/jactivelte/proprietary/Sensors/lib/hw/sensorhubs.msm8960.so:system/lib/hw/sensorhubs.msm8960.so \
-        vendor/samsung/jactivelte/proprietary/Sensors/lib/libsam.so:system/lib/libsam.so \
-        vendor/samsung/jactivelte/proprietary/Sensors/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so
+        vendor/samsung/jactivelte/proprietary/Sensors/lib/libsam.so:system/lib/libsam.so
