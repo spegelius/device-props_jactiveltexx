@@ -97,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jactivelte/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
     vendor/samsung/jactivelte/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/jactivelte/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
-    vendor/samsung/jactivelte/proprietary/cameradata/M10MO_SFW.bin:system/cameradata/M10MO_SFW.bin \
     vendor/samsung/jactivelte/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/jactivelte/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/jactivelte/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
